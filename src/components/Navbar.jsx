@@ -4,7 +4,7 @@ import { FiMail, FiGithub, FiLinkedin, FiSlack } from 'react-icons/fi';
 
 const Navbar = () => {
   return (
-      <nav className='mb-20 flex items-center justify-between py-4 sticky'>
+      <nav className='mb-20 flex items-center justify-between py-4 border-b border-gray-500'>
         <div className='flex shrink-0 items-center pr-2'>
             <img src={RLogo} alt="logo" className='w-[40px] cursor-pointer '/>
         </div>

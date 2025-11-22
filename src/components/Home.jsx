@@ -7,9 +7,9 @@ const Home = () => {
       <div className='flex flex-wrap'>
         <div className='w-full lg:w-1/2'>
           <div className='flex flex-col items-center lg:items-start'>
-            <h1 className='text-3xl lg:text-6xl pb-14 lg:mt-14 font-light tracking-tight'>Raman Shakya</h1>
+            <h1 className='text-4xl lg:text-6xl pb-10 lg:mt-14 font-light tracking-tight'>Raman Shakya</h1>
             <div>
-              <p className='text-2xl lg:text-4xl underline decoration-gray-900 decoration-2 underline-offset-3 bg-linear-to-r from-pink-200 via-slate-600 to-purple-700 font bg-clip-text text-transparent'>
+              <p className='mb-3 text-2xl lg:text-4xl underline decoration-gray-900 decoration-2 underline-offset-3 bg-linear-to-r from-pink-200 via-slate-600 to-purple-700 font bg-clip-text text-transparent'>
                 Self Taught Full Stack Developer
               </p>
               <p className='lg:text-2xl max-w-xl py-4 tracking-tight'>
@@ -20,7 +20,7 @@ const Home = () => {
         </div>
         <div className='w-full lg:w-1/2 lg:p-8'>
           <div className='flex justify-center'>
-            <img src={ProfilePic} alt="Photo" className='max-w-auto xl:max-w-xl' />
+            <img src={ProfilePic} alt="Photo" className='max-w-auto xl:max-w-xl rounded-2xl' />
           </div>
         </div>
       </div>

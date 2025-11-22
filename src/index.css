@@ -10,6 +10,14 @@ h1 {
   font-family:  'Science Gothic', sans-serif;
 }
 
+h2 {
+  font-family: "Segoe UI", sans-serif;
+}
+
 .nav_icon{
   @apply w-5 h-5 cursor-pointer;
+}
+
+.about_card{
+  @apply flex flex-1 flex-col items-center bg-gray-900/50 backdrop-blur border border-gray-800 rounded-2xl px-10 py-12 hover:border-purple-900 hover:scale-105 transition-all;
 }

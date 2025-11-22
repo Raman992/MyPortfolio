@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className='flex shrink-0 items-center pr-2'>
             <img src={RLogo} alt="logo" className='w-[40px] cursor-pointer '/>
         </div>
-        <h1>
+        <h1 className='text-2xl'>
             Wellcome To My Portfolio
         </h1>
         <div className='flex gap-3'>

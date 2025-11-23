@@ -7,6 +7,14 @@ export const about_items = [
   { title: "Currently", icon: <FiCamera />, desc: "BCA student · Building real projects · Hunting for my first dev job" },
 ];
 
+export const about_para = [
+{
+  Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, ipsam provident! Labore eius libero, magnam nihil soluta odio, optio repellendus, pariatur aliquam necessitatibus possimus ut obcaecati hic ex officia ea?"
+},
+{
+  Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, ipsam provident! Labore eius libero, magnam nihil soluta odio, optio repellendus, pariatur aliquam necessitatibus possimus ut obcaecati hic ex officia ea?"
+}
+];
 
 export const techStack = [
     { name: "JavaScript", icon: <SiJavascript className="text-yellow-400" /> },

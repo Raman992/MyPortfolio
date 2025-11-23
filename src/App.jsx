@@ -3,6 +3,8 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import About from './components/About'
+import Technologies from './components/Technologies'
+import Projects from './components/Projects'
 const App = () => {
   return (
     <div className='overflow-x-hidden text-neutral-200 sm:px-9 px-2'>
@@ -13,6 +15,8 @@ const App = () => {
         <Navbar />
         <Home />
         <About />
+        <Technologies />
+        <Projects />
       </div>
     </div>
   )

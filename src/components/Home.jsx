@@ -13,7 +13,7 @@ const Home = () => {
                 Self Taught Full Stack Developer
               </p>
               <p className='lg:text-2xl max-w-xl py-4 tracking-tight'>
-                Fullstack developer with a focus on solving real problems using clean code. After self-learning JavaScript and having built many projects, the current main focus is on stacks around React + Node.js, Tailwind, MongoDb and Express.js. Writing tests is important, as is performance; I always make sure to leave the codebase in better condition than I found it. Currently looking for the first role where growth is ensured while shipping value every day.
+                Fullstack developer with a focus on solving real problems using clean code. After self-learning JavaScript and having built many projects, the current main focus is on stacks around React + Node.js, Tailwind, MongoDb and Express.js. Always making sure to leave the codebase in better condition than I found it. Currently looking for the first role where growth is ensured while shipping value every day. Still learning every day ✌️🕊️.
               </p>
             </div>
           </div>

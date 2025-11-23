@@ -4,7 +4,7 @@ import ProfilePic from '../assets/icons/PP_Logo.jpg'
 const Home = () => {
   return (
     <div className='border-b border-neutral-500 pb-4 lg:mb-35'>
-      <div className='flex flex-wrap'>
+      <div className='flex flex-wrap mb-20'>
         <div className='w-full lg:w-1/2'>
           <div className='flex flex-col items-center lg:items-start'>
             <h1 className='text-4xl lg:text-6xl pb-10 lg:mt-14 font-light tracking-tight'>Raman Shakya</h1>

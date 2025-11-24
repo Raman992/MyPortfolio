@@ -46,7 +46,7 @@ export const techStack = [
     desc: "A super-fast, beginner-built text editor made with React + Vite + Bootstrap my very first React project!",
     tech: ["React", "Bootstrap", "Vite"],
     link: "",
-    github: "https://github.com/raman992/myportfolio",
+    github: "https://github.com/Raman992/TextConverter",
     image: textconverter 
   },
   ];

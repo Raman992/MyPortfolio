@@ -11,7 +11,7 @@ const Technologies = () => {
                             key={tech.name}
                             className="technology_card animate-float"
                             style={{
-                                animationDelay: `${Math.random() * 2}s`
+                                animationDelay: `${Math.random()}s`
                             }}
                         >
                             <div className="text-4xl">

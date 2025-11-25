@@ -31,7 +31,9 @@ export const techStack = [
 
 
 //Projects
-  import textconverter from '../assets/screenshots/textc1.png'
+import {
+screenshot
+} from '../assets/screenshots/index'
   export const projects = [
   {
     title: "Portfolio Website",
@@ -47,6 +49,30 @@ export const techStack = [
     tech: ["React", "Bootstrap", "Vite"],
     link: "",
     github: "https://github.com/Raman992/TextConverter",
-    image: textconverter 
+    image: screenshot.textconverter 
+  },
+  {
+    title: "News24",
+    desc: "A beautiful, responsive, and fast news website that fetches and displays real-time top headlines from around the world using the free NewsAPI.",
+    tech: ["React", "Bootstrap", "Vite"],
+    link: "",
+    github: "https://github.com/Raman992/newsproject",
+    image: screenshot.news24 
+  },
+  {
+    title: "E-Note",
+    desc: "A minimalist note-taking app built as my first full-stack MERN project, which lets you store your notes in cloud with login and sign up credentials",
+    tech: ["React", "MongoDb", "Express.js", "Node.js", "Vite"],
+    link: "",
+    github: "https://github.com/Raman992/E-note",
+    image: screenshot.enote 
+  },
+  {
+    title: "Online Exam Hall Manangement",
+    desc: "The Online Exam Hall Management System is a PHP and MySQL-based web application that helps educational institutions efficiently manage exam hall allocations.",
+    tech: ["PHP", "Bootstrap", "MySQL"],
+    link: "",
+    github: "https://github.com/Raman992/OnlineExamHall",
+    image: screenshot.oehms 
   },
   ];

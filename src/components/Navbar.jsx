@@ -9,7 +9,7 @@ const Navbar = () => {
         <img src={RLogo} alt="logo" className='w-[40px] cursor-pointer ' />
       </div>
       <h1 className='text-2xl'>
-        Wellcome To My Portfolio
+        Welcome To My Portfolio
       </h1>
       <div className='flex gap-3'>
         <a href="mailto:ramanshakya992@gmail.com">

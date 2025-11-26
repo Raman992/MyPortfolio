@@ -18,9 +18,9 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className='w-full lg:w-1/2 lg:p-8'>
+        <div className='w-full lg:w-1/2 lg:p-8 mt-10 lg:mt-0'>
           <div className='flex justify-center'>
-            <img src={ProfilePic} alt="Photo" className='max-w-auto xl:max-w-xl md:max-w-lg rounded-2xl' />
+            <img src={ProfilePic} alt="Photo" className='max-w-full w-full md:max-w-lg xl:max-w-xl rounded-2xl shadow-2xl border border-border' />
           </div>
         </div>
       </div>

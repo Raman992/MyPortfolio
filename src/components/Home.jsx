@@ -3,8 +3,6 @@ import ProfilePic from '../assets/icons/PP_Logo.jpg'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react';
 
-
-
 const Home = () => {
   
   useGSAP(() => {
@@ -30,8 +28,9 @@ const Home = () => {
 
     tl.from('#profile_pic', {
       opacity: 0,
-      scale: 0.5,
-      duration: 1.5
+      x: 250,
+      duration: 1.5,
+      delay:0.5
     }, "");
 
     gsap.to('#profile_pic', {
@@ -39,7 +38,7 @@ const Home = () => {
       duration: 2,
       repeat: -1,
       yoyo: true,
-      ease: "power1.inOut"
+      ease: "power1.inOut",
     });
 
   }, []);

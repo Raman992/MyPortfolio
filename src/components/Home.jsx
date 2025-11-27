@@ -3,7 +3,6 @@ import ProfilePic from '../assets/icons/PP_Logo.jpg'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react';
 
-gsap.registerPlugin(ScrollTrigger);
 
 
 const Home = () => {
